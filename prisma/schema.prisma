@@ -15,4 +15,12 @@ model Friend {
   name String
   age Int
   interest String
+  timestamp DateTime @default(now())
+}
+
+model Animal {
+  id Int @id @default(autoincrement())
+  name String
+  isCute Boolean
+  dangerLevel Int
 }

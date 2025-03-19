@@ -36,6 +36,7 @@
 		<div class="bg-stone-400 rounded-md">
 			<div class="text-lg font-bold p-1">#{f.id} {f.name} ({f.age})</div>
 			<div class="p-1">{f.interest}</div>
+			<div class="p-1">Created at: {f.timestamp}</div>
 		</div>
 	{/each}
 </div>
