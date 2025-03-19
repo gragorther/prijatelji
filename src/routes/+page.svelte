@@ -10,8 +10,14 @@
 	method="POST"
 	action="?/addFriend"
 >
-	<input name="name" required />
-	<input name="age" type="number" required />
+	<div>
+		<h2>Name</h2>
+		<input name="name" required />
+	</div>
+	<div>
+		<h2>Age</h2>
+		<input name="age" type="number" required />
+	</div>
 	<select name="interest" required>
 		<option value="">Select interest</option>
 		<option value="sport">Sport</option>

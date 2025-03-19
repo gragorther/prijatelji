@@ -7,12 +7,14 @@ export const actions = {
 		const age = form.get('age');
 		const interest = form.get('interest');
 
-    // Dodaj novega prijatelja
-    await db.friend.create({data: {
-      name: name
-      age: parseInt(age)
-      interest: interest
-    }})
+		// Dodaj novega prijatelja
+		await db.friend.create({
+			data: {
+				name: name,
+				age: parseInt(age),
+				interest: interest
+			}
+		});
 	}
 };
 
