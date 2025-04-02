@@ -16,6 +16,8 @@ model Friend {
   age Int
   interest String
   timestamp DateTime @default(now())
+  color String
+  image String
 }
 
 model Animal {
